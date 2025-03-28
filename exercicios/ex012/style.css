@@ -1,0 +1,23 @@
+
+body{
+    background-color: #FABCDF;
+}
+main{
+    background-color: white;
+    width: 600px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 10px 10px 10px #9c6484;
+}
+h1 {
+    color:#e250a2 ;
+    text-align: center;
+    text-shadow: 1px 1px 2px #9c6484;
+}
+h2{
+    color: #D44998;
+}
+a{
+    color: #D44998;
+}

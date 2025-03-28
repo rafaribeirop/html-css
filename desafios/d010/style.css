@@ -1,0 +1,117 @@
+@charset "UTF-8"
+*{
+    height: 100%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
+@font-face {
+    font-family:'idroid';
+    src: url(fontes/idroid.otf);
+}
+
+body{
+    background-color:#84e1ad;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    text-align: justify;
+}
+header{
+    background-image: -webkit-linear-gradient(bottom, #063d1e 80%, #2FA866 );
+    background-attachment: fixed;
+    padding: 10px;
+}
+header>h1{
+    font-family: 'bebas neue', cursive;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    font-style: normal;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.35);
+   
+}
+header>p{
+    color: white;
+    text-align: center;
+    margin: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.441);
+    
+}
+nav>a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 30px;
+   
+   
+}
+nav>a:hover{
+    background-color:#265c38;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+
+#titulo{
+    font-family: 'idroid';
+    color: #265c38;
+}
+.cor{
+    background-image: -webkit-linear-gradient(left, #60d3817e, white);
+}
+main{
+    background-color: white;
+    padding: 10px;
+    width: 800px;
+    margin: auto;
+}
+.topicos{
+    margin: auto;
+    width:300px;
+    display:inline-table;
+}
+aside>h1{
+    background-color: #4ba867;
+    padding: 8px;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    text-indent: 0%;
+    margin: 0px;
+
+}
+aside{
+    background-color: #c5ebd6;
+    padding: 2px;
+    border-radius: 10px;
+    padding-top: 0%;
+   margin-top: 20px;
+    text-indent: 20px;
+    margin-bottom: 20px;
+
+    
+}
+aiside>p{
+    text-indent: 20px;
+}
+footer{
+    text-align: center;
+    font-size: 0.8em;
+    background-color: #063d1e;
+    padding: 3px;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.409);
+    font-weight: lighter;
+}
+.footer{
+    font-weight: bold;
+}
+.destaque{
+    color: #265c38;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+article{
+    margin-bottom: 0%;
+}
+

@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(250, 211, 232);
+}
+h1{
+    color: rgb(255, 106, 178);
+}
+h2{
+    color: rgb(254, 127, 190);
+}
+p{
+    color: rgb(100, 100, 100);
+    text-align: justify;
+}
+a{
+    color: rgb(246, 59, 162);
+}
