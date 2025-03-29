@@ -4,10 +4,12 @@ body{
     background-color: #EE96CA;
     font-size: 20px;
     font-family: "Cormorant Garamond", serif;
+    
 }
 main{
     background-color: white;
-    width: 600px;
+    min-width: 300px;
+    max-width: 600px;
     border-radius: 20px;
     padding: 10px;
     margin: auto;
@@ -20,6 +22,10 @@ h1{
 }
 h1:hover{
     color:#DA5BA5;
+}
+
+p{
+    text-align: justify;
 }
 h2{
     color: #B64C8A;
