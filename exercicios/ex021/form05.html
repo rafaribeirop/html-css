@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <label for="estado">Escolha seu estado</label>
+    <select name="estado" id="estado"> 
+        <optgroup label="Região Sudeste">
+            <option value="SP">São Paulo</option>
+            <option value="MG" selected>Minas Gerais</option>
+        </optgroup>
+    </select>
+<p>
+    
+        <label for="prof">Profissões</label>
+        <input type="text" name="prof" id="prof" list="listprof">
+        <datalist id="listprof">
+            <option>Cozinheiro</option>
+            <option>Enfermeiro</option>
+
+        </datalist>
+</p>
+<p>
+    <label for="text">Escreva aqui</label>
+    <textarea name="text" id="text" cols="30" rows="10"></textarea>
+</p>
+<p>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpar">
+</p>
+</body>
+</html>
