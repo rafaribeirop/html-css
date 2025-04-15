@@ -2,7 +2,7 @@
 
 /*Estilo Retrato*/
 
- html body{
+  body{
     background: url(../imagens/cev-portrait.jpg);
     background-position: center bottom;
 }
