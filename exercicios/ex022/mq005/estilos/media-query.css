@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@media screen and (min-width:769px) {
+    span#menu{
+        display: none;
+    }
+    menu{
+        display: block;
+        
+    }
+    
+    menu > ul > li{
+        display: inline-block;
+    }
+
+    menu > ul > li > a{
+        margin-left: 5px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px ;
+        transition-duration: .5s;
+    }
+
+    main{
+        width: 769px;
+    }
+}
