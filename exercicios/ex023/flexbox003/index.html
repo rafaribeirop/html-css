@@ -7,9 +7,11 @@
 
     <style>
         div.conteiner{
+            height: 200px;
             display: flex;
-            flex-flow: row wrap-reverse;
-            
+            flex-flow: row nowrap;
+            justify-content: space-evenly;
+            align-items: flex-end;
             background-color: brown;
         }
 
@@ -18,19 +20,18 @@
             background-color: blueviolet;
             border: 1px solid black;
             text-align: center;
-            flex: auto;
 
         }
     </style>
 </head>
 <body>
     <div class="conteiner">
-        <div class="item"> Exemplo de itens A</div>
-        <div class="item"> Exemplo de itens B</div>
-        <div class="item"> Exemplo de itens C</div>
-        <div class="item"> Exemplo de itens D</div>
-        <div class="item"> Exemplo de itens E</div>
-        <div class="item"> Exemplo de itens F</div>
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
     </div>
     
 </body>
