@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex box</title>
+
+    <style>
+        div.conteiner{
+            display: flex;
+            flex-flow: row wrap;
+            background-color: brown;
+            height: 400px;
+            justify-content: space-evenly;
+            align-items: flex-start;
+        }
+        div.item{
+            padding: 10px;
+            background-color: blueviolet;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+      div#um{ 
+        order: 4;
+        align-self: center;
+      }
+
+      div#dois{
+        order: 7;
+        align-self: stretch;
+
+      }
+
+        div#tres{
+            order: 1;
+            align-self: flex-end;
+        
+        
+        }
+        div#quatro{
+            order: -1;
+            align-self: center;
+            
+        }
+        div#5{
+            
+        }
+        div#6{
+            
+        }
+   
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div id="um" class="item">A</div>
+        <div id="dois" class="item">B</div>
+        <div id="tres" class="item">C</div>
+        <div id="quatro" class="item">D</div>
+        <div id="cinco" class="item">E</div>
+        <div id="seis" class="item">F</div>
+    </div>
+    
+</body>
+</html>
